@@ -28,12 +28,15 @@
     list-style: none;
     /* padding:0 2%; */
 }
+.left li:first-child a{
+    padding-left: 1em; 
+}
 .left li a{
     display: block;
     font-size: 16px;
     text-decoration:none;
     color: #050516;
-    padding: 0 20px;
+    padding-right: 1em;   
 }
 .left li a:hover{
     color: #eb0c0c75;
