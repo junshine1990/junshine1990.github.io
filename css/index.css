@@ -2,12 +2,14 @@
  .header{ 
      margin-top:80px;
      overflow: hidden;
+     border: 1px solid #ebd8d8; 
+     background-color: #fff;
  }
  
 .nav{
    
-    border: 1px solid #ebd8d8;
-    background-color: #fff;
+
+   
     position: relative;
     height: 50px;
     line-height: 50px;
