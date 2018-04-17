@@ -73,3 +73,25 @@ img{
      display: none;
  }
 }
+
+.tuijian {
+    background-color: #fff;
+    margin-top: 10px;
+    /* height: 40px;
+    line-height: 40px; */
+}
+.tuijian .ref{
+   
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap
+}
+
+.tuijian .ref li{
+    margin-left: 1em;
+    font-size: 14px;
+}
+
+
