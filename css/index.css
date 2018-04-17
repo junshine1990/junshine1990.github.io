@@ -1,6 +1,20 @@
- 
+
+.top{
+      background-color: #fff;
+      height: 80px;
+      line-height: 80px;
+}
+.center{
+    width: 90%;
+  
+    margin: 0 auto;
+   
+}
+img{
+    vertical-align: top;
+}
  .header{ 
-     margin-top:80px;
+     /* margin-top:80px; */
      overflow: hidden;
      border: 1px solid #ebd8d8; 
      background-color: #fff;
@@ -14,7 +28,7 @@
     height: 50px;
     line-height: 50px;
     margin:  0 auto;
-    width: 96%;
+    width: 90%;
    
     
 }
@@ -45,7 +59,7 @@
 }
 .right{
      position: absolute;
-     right: 10%;
+     right: 3%;
      font-size: 16px;
      top: 5%;
  }

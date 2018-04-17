@@ -13,9 +13,16 @@
     -webkit-text-size-adjust: 100%;   2  
   } */
   
+  .fr{
+    float: right;
+  }
+  .fl{
+    float: left;
+  }
   /* Sections
      ========================================================================== */
   
+
   /**
    * Remove the margin in all browsers.
    */
