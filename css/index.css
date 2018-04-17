@@ -33,7 +33,7 @@
 }
 .left li a{
     display: block;
-    font-size: 12px;
+    font-size: 16px;
     text-decoration:none;
     color: #050516;
     padding-right: 1em;   
@@ -44,7 +44,7 @@
 .right{
      position: absolute;
      right: 10%;
-     font-size: 12px;
+     font-size: 16px;
      top: 5%;
  }
 @media (max-width:600px){
