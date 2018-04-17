@@ -4,6 +4,11 @@
       height: 80px;
       line-height: 80px;
 }
+@media (max-width:500px){
+    .top .hidden{
+        display: none;
+    }
+}
 .center{
     width: 90%;
   
