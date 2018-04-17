@@ -14,7 +14,7 @@
     height: 50px;
     line-height: 50px;
     margin:  0 auto;
-    width: 86%;
+    width: 96%;
    
     
 }
@@ -38,7 +38,7 @@
     font-size: 16px;
     text-decoration:none;
     color: #050516;
-    padding-right: 1em;   
+    padding:0 .5em;   
 }
 .left li a:hover{
     color: #eb0c0c75;
