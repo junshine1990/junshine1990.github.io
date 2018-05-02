@@ -94,4 +94,25 @@ img{
     font-size: 14px;
 }
 
+.main-box{
+    margin-top: 10px;
+}
+.main{
+    
+    margin: 0 auto;
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    height: 800px;
+}
+.main .main-left{
+    width: 60%;
+    border: 1px solid #c0c0c0;
+}
+
+.main .main-right{
+    width: 30%;
+    border: 1px solid #c0c0c0;
+}
+
 

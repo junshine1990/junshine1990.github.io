@@ -12,7 +12,14 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/index.css">
 	
-	
+	<script>
+		window.onload = function(){
+			let hidden = document.querySelector('.hidden');
+			let date = new Date();
+			let nowdate = date.toLocaleString();
+			hidden.innerHTML = nowdate;
+		}
+	</script>
 </head>
 <body>
 	
@@ -54,5 +61,38 @@
 
 	</div>
 	<!-- 推荐部分结束 -->
+
+	<!-- 主体部分开始 -->
+	<div class="main-box">
+		<div class="main">
+			<div class="main-left">
+	
+			</div>
+	
+			<div class="main-right">
+	
+			</div>
+	
+		</div>
+	</div>
+
+	<button id="btn">点击</button>
+	<!-- 主体部分结束 -->
+
+	<div class="show"></div>
+	<script>
+		const div = document.querySelector(".show");
+		document.getElementById('btn').onclick = function(){
+	
+			fetch("https://jsonplaceholder.typicode.com/posts")
+				.then(data => data.json())
+				.then(data =>{ for(  let i=0;i<99;i++ ){
+					div.innerHTML = data[i];
+					
+				}
+				})
+			 
+		}
+	</script>
 </body>
 </html>
