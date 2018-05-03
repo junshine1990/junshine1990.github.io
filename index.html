@@ -18,6 +18,8 @@
 			let date = new Date();
 			let nowdate = date.toLocaleString();
 			hidden.innerHTML = nowdate;
+
+
 		}
 	</script>
 </head>
@@ -88,16 +90,20 @@
 
 	<div class="show"></div>
 	<script>
+		fetch("https://junshine1990.github.io/one.txt").then(data => console.log(data))
 		const div = document.querySelector(".show");
+
+
 		document.getElementById('btn').onclick = function(){
 	
-			fetch("https://jsonplaceholder.typicode.com/posts")
+			fetch("https://jsonplaceholder.typicode.com/posts/one.text")
 				.then(data => data.json())
 				.then(data =>{ for(  let i=0;i<99;i++ ){
 					div.innerHTML = data[i];
 					
 				}
 				})
+
 			 
 		}
 	</script>
